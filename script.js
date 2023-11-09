@@ -14,6 +14,8 @@ function gerarImc(event) {
   const imc = (imcWeight / (imcHeight * imcHeight)).toFixed(2);
   value.innerText = imc;
 
+  value.classList.remove('hidden');
+  drescription.classList.remove('hidden');
   drescription.classList.add('atencao');
 
   if (imc < 18.5) {

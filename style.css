@@ -26,6 +26,7 @@
   padding: 2rem;
   margin: 2rem;
   border-radius: 10px;
+  max-width: 350px;
 }
 
 /* Titulo da card */
@@ -104,11 +105,14 @@
 }
 
 .result-calc {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
-  gap: 2rem;
+  justify-items: center;
   max-width: 100%;
-  margin: 25px 0 50px 0;
+  background-color: #EEE;
+  border-radius: .5rem;
+  
 }
 
 .result-drescription {
@@ -120,20 +124,24 @@
 }
 
 .normal {
-  color: #00AE34;
+  color: #008B29;
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 .atencao {
-  color: #DCCD2A;
+  color: #C6B825;
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 .cuidado {
   color: #FF5100;
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 .information-imc a {
   font-size: 1rem;
   display: flex;
+  margin-top: 1rem;
   justify-content: center;
   color: #2b64ff;
 }
