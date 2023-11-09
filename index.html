@@ -12,18 +12,20 @@
   <div class="container-bg">
     <div class="container-card">
       <h1 class="card-titulo">Calculadora de IMC</h1>
-      <form id="calculator">
-        <label for="weight">Informe o seu peso</label>
-        <div class="weight-value">
+      <form class="form-calculator">
+        <label for="weight" class="weight-titulo">Informe o seu peso</label>
+        <div class="form-value">
           <span class="material-symbols-outlined">weight</span>
-            <input type="number" id="weight" class="weight" required>
+            <input type="number" id="weight" class="weight" required placeholder="50">
+          <span class="form-unidade">kg</span>
         </div>
         <label for="height">Informe a sua altura(em centimetros)</label>
-        <div class="height-value">
+        <div class="form-value">
           <span class="material-symbols-outlined">
             height
             </span>
-          <input type="number" id="height" class="weight" required>
+          <input type="number" id="height" class="weight" required placeholder="162">
+          <span class="form-unidade">cm</span>
         </div>
         <div class="calculator-button">
           <button class="btn-calc">
