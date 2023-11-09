@@ -93,4 +93,28 @@
   text-transform: uppercase;
   font-weight: 400;
   color: #EEE;
+  margin-bottom: 3rem;
+}
+
+.result-calc {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 100%;
+}
+
+.result-value {
+  font-size: 2rem;
+}
+
+.normal {
+  color: #00AE34;
+}
+
+.atencao {
+  color: #D0BE00;
+}
+
+.cuidado {
+  color: #FF5100;
 }
