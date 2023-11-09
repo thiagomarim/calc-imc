@@ -24,6 +24,7 @@
   font-weight: 400;
   background-color: white;
   padding: 2rem;
+  margin: 2rem;
   border-radius: 10px;
 }
 
@@ -33,9 +34,15 @@
   font-family: 'Poppins', 'sans-serif';
   font-weight: 700;
   color: #2b64ff;
+  display: flex;
 }
 
 /* Titulo e Campo de resposta */
+
+.form-calculator label {
+  font-size: 1rem;
+  max-width: 100vw;
+}
 
 .form-value {
   display: flex;
@@ -93,14 +100,19 @@
   text-transform: uppercase;
   font-weight: 400;
   color: #EEE;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .result-calc {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
   max-width: 100%;
+  margin: 25px 0 50px 0;
+}
+
+.result-drescription {
+  max-width: 300px;
 }
 
 .result-value {
@@ -112,9 +124,16 @@
 }
 
 .atencao {
-  color: #D0BE00;
+  color: #DCCD2A;
 }
 
 .cuidado {
   color: #FF5100;
+}
+
+.information-imc a {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  color: #2b64ff;
 }
